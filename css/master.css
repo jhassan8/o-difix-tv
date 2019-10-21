@@ -1,0 +1,46 @@
+body {
+  width:1280px;
+  height:720px;
+  margin:0;
+}
+
+#__e {
+  display:none;
+	position:absolute;
+  top:0px;
+  left:0px;
+  width:1280px;
+  height:720px;
+  background-color:#6a6a6a;
+}
+
+#__el {
+  display:block;
+	position:absolute;
+  top:258px;
+  left:430px;
+  width:139px;
+  height:204px;
+  background:url(../img/error.png) no-repeat;
+}
+
+#__ec {
+	display:block;
+	position:absolute;
+	font-size:70px;
+	width:300px;
+	left:600px;
+  top:270px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+#__et {
+	display:block;
+	position:absolute;
+	font-size:40px;
+	width:300px;
+  left:600px;
+	top:350px;
+	color:#FFFFFF;
+}

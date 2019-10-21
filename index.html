@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/div/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Difix</title>
+    <!-- Common widget API -->
+    <script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/Widget.js'></script>
+    <script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/TVKeyValue.js'></script>
+    <script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/Plugin.js'></script>
+    <script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/API/PluginTV.js'></script>
+    <script type='text/javascript' language='javascript' src='$MANAGER_WIDGET/Common/Plugin/Define.js'></script>
+    <!-- Widget code -->
+    <script language="javascript" type="text/javascript" src="js/master.js"></script>
+    <script language="javascript" type="text/javascript" src="server/js/keys.js"></script>
+    <script language="javascript" type="text/javascript" src="server/js/audio.js"></script>
+    <script language="javascript" type="text/javascript" src="server/js/player.js"></script>
+    <script language="javascript" type="text/javascript" src="server/js/data.js"></script>
+    <script language="javascript" type="text/javascript" src="server/js/display.js"></script>
+    <script language="javascript" type="text/javascript" src="server/js/server.js"></script>
+    <script language="javascript" type="text/javascript" src="server/js/connectors.js"></script>
+    <script language="javascript" type="text/javascript" src="server/js/main.js"></script>
+    <script language="javascript" type="text/javascript" src="server/js/others.js"></script>
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="css/master.css" type="text/css">
+    <link rel="stylesheet" href="server/css/main.css" type="text/css">
+    <!-- Plugins -->
+		<object id="pluginNetwork" border=0 classid="clsid:SAMSUNG-INFOLINK-NETWORK"></object>
+		<object id="pluginObjectFontpanel" border=0 classid="clsid:SAMSUNG-INFOLINK-FRONTPANEL"></object>
+    <object id="pluginPlayer" border=0 classid="clsid:SAMSUNG-INFOLINK-PLAYER"></object>
+		<object id="pluginAudio" border=0 classid="clsid:SAMSUNG-INFOLINK-AUDIO"></object>
+    <object id="pluginTVMW" border=0 classid="clsid:SAMSUNG-INFOLINK-TVMW"></object>
+    <object id="pluginObjectNNavi" border=0 classid="clsid:SAMSUNG-INFOLINK-NNAVI"></object>
+    <object id="pluginObjectTV" border=0 classid="clsid:SAMSUNG-INFOLINK-TV"></object>
+    <object id="pluginObjectWindow" border=0 classid="clsid:SAMSUNG-INFOLINK-WINDOW"></object>
+    <object id="pluginObjectAppCommon" border=0 classid="clsid:SAMSUNG-INFOLINK-APPCOMMON"></object>
+    <object id="pluginObjectFileSystem" border=0 classid="clsid:SAMSUNG-INFOLINK-FILESYSTEM"></object>
+    <object id="pluginStorage" border=0 classid="clsid:SAMSUNG-INFOLINK-STORAGE"></object>
+  </head>
+  <body onload="__M.on();" onunload="__M.off();">
+    <!-- Dummy anchor as focus for key events -->
+    <a href='javascript:void(0);' id='__k' onkeydown='__M.k();'></a>
+		<div id="__e">
+			<div id="__el"></div>
+			<div id="__ec">ERROR!</div>
+			<div id="__et">Al conectarse con el servidor.</div>
+		</div>
+  </body>
+</html>

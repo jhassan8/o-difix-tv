@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.samsung.com/">
+  <ListIcon>img/icon/86x70.png</ListIcon>
+  <BigListIcon>img/icon/95x78.png</BigListIcon>
+  <ThumbIcon>img/icon/106x87.png</ThumbIcon>
+  <BigThumbIcon>img/icon/115x95.png</BigThumbIcon>
+  <type>user</type>
+  <cpname>Jocs</cpname>
+  <cplogo/>
+  <cpauthjs/>
+  <ver/>
+  <mgrver/>
+  <fullwidget>y</fullwidget>
+	<movie>y</movie>
+  <srcctl>y</srcctl>
+  <ticker>n</ticker>
+  <childlock>n</childlock>
+  <audiomute>n</audiomute>
+  <videomute>n</videomute>
+  <dcont>y</dcont>
+  <widgetname>Difix</widgetname>
+  <description/>
+  <width>1280</width>
+  <height>720</height>
+  <flashplayer>y</flashplayer>
+  <author>
+    <name>Jocs</name>
+    <email>jhassan8@outlock.com</email>
+    <link/>
+    <organization>Difix</organization>
+  </author>
+</widget>
