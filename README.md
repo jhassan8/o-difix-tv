@@ -1,5 +1,5 @@
 # Difix
-[Logo](https://raw.githubusercontent.com/jhassan8/o-difix-tv/master/server/img/logo.png)
+![Logo](https://raw.githubusercontent.com/jhassan8/o-difix-tv/master/server/img/logo.png)
 
 Aplicación basada en Samsung Smart TV Legacy v2010 en adelante
 
